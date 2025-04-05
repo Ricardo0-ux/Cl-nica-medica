@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalis Clinic | Medicina de Excelência</title>
+    <meta name="description" content="Clínica médica especializada em cuidados preventivos e tratamentos personalizados">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Vitalis Clinic | Medicina de Excelência">
+    <meta property="og:description" content="Cuidados médicos personalizados com tecnologia de ponta">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.vitalisclinic.com">
+    <meta property="og:image" content="https://www.vitalisclinic.com/images/social-share.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Fontes -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Animate On Scroll -->
+    <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Vitalis Clinic - Página Inicial">
+                <div class="logo-mark">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="logo-text">
+                    <span>Vitalis</span>
+                    <span>Clinic</span>
+                </div>
+            </a>
+            
+            <button class="menu-toggle" id="mobile-menu" aria-label="Menu Mobile" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
+                <li><a href="#corpo-clinico" class="nav-link">Corpo Clínico</a></li>
+                <li><a href="#tecnologia" class="nav-link">Tecnologia</a></li>
+                <li><a href="#contato" class="btn-consulta">Agendar Consulta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="800">
+                <div class="hero-badge">Excelência Médica</div>
+                <h1><span class="highlight">Saúde Integral</span> e Bem-Estar Personalizado</h1>
+                <p class="hero-subtitle">Cuidados médicos preventivos e tratamentos especializados em um ambiente acolhedor e tecnológico</p>
+                
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="#especialidades" class="btn btn-outline">Nossas Especialidades</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="destaques">
+        <div class="container">
+            <div class="destaque-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="destaque-icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h3>+20 Especialistas</h3>
+                <p>Equipe multidisciplinar de médicos altamente qualificados</p>
+                <div class="destaque-counter">20+</div>
+            </div>
+            
+            <div class="destaque-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="destaque-icon">
+                    <i class="fas fa-procedures"></i>
+                </div>
+                <h3>Atendimento Personalizado</h3>
+                <p>Consultas com tempo dedicado para cada paciente</p>
+                <div class="destaque-counter">1h+</div>
+            </div>
+            
+            <div class="destaque-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="destaque-icon">
+                    <i class="fas fa-clinic-medical"></i>
+                </div>
+                <h3>Infraestrutura Completa</h3>
+                <p>Centro médico com tecnologia de última geração</p>
+                <div class="destaque-counter">100%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section class="especialidades" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Especialidades</h2>
+                <p class="section-subtitle">Cuidados médicos integrados</p>
+            </div>
+            
+            <div class="especialidades-grid">
+                <div class="especialidade-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="especialidade-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Cardiologia</h3>
+                    <p>Prevenção, diagnóstico e tratamento de doenças cardiovasculares.</p>
+                    <ul class="especialidade-lista">
+                        <li>Check-up cardiológico</li>
+                        <li>Ecocardiograma</li>
+                        <li>Teste ergométrico</li>
+                    </ul>
+                    <a href="#contato" class="saiba-mais">
+                        <span>Agendar consulta</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <div class="especialidade-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="especialidade-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neurologia</h3>
+                    <p>Diagnóstico e tratamento de doenças do sistema nervoso.</p>
+                    <ul class="especialidade-lista">
+                        <li>Eletroencefalograma</li>
+                        <li>Tratamento para enxaqueca</li>
+                        <li>Acompanhamento neurológico</li>
+                    </ul>
+                    <a href="#contato" class="saiba-mais">
+                        <span>Agendar consulta</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                
+                <div class="especialidade-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="especialidade-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <h3>Pneumologia</h3>
+                    <p>Cuidados com a saúde respiratória e tratamento de doenças pulmonares.</p>
+                    <ul class="especialidade-lista">
+                        <li>Espirometria</li>
+                        <li>Tratamento para asma</li>
+                        <li>Reabilitação pulmonar</li>
+                    </ul>
+                    <a href="#contato" class="saiba-mais">
+                        <span>Agendar consulta</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corpo Clínico -->
+    <section class="corpo-clinico" id="corpo-clinico">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Corpo Clínico</h2>
+                <p class="section-subtitle">Profissionais de excelência</p>
+            </div>
+            
+            <div class="medicos-grid">
+                <div class="medico" data-aos="fade-up" data-aos-delay="100">
+                    <div class="medico-avatar">
+                        <img src="images/medico-1.jpg" alt="Dra. Ana Beatriz Lemos" loading="lazy">
+                    </div>
+                    <h3>Dra. Ana Beatriz Lemos</h3>
+                    <p class="medico-especialidade">Cardiologista</p>
+                    <p class="medico-bio">Formada pela USP com especialização em Harvard. Atua há 15 anos em cardiologia preventiva.</p>
+                    <div class="medico-contato">
+                        <a href="#contato">Agendar Consulta</a>
+                    </div>
+                </div>
+                
+                <div class="medico" data-aos="fade-up" data-aos-delay="200">
+                    <div class="medico-avatar">
+                        <img src="images/medico-2.jpg" alt="Dr. Ricardo Fortes" loading="lazy">
+                    </div>
+                    <h3>Dr. Ricardo Fortes</h3>
+                    <p class="medico-especialidade">Neurologista</p>
+                    <p class="medico-bio">Especialista em doenças neurodegenerativas com doutorado pela UNIFESP.</p>
+                    <div class="medico-contato">
+                        <a href="#contato">Agendar Consulta</a>
+                    </div>
+                </div>
+                
+                <div class="medico" data-aos="fade-up" data-aos-delay="300">
+                    <div class="medico-avatar">
+                        <img src="images/medico-3.jpg" alt="Dra. Carla Mendes" loading="lazy">
+                    </div>
+                    <h3>Dra. Carla Mendes</h3>
+                    <p class="medico-especialidade">Pneumologista</p>
+                    <p class="medico-bio">Referência em doenças respiratórias com 10 anos de experiência em hospitais de excelência.</p>
+                    <div class="medico-contato">
+                        <a href="#contato">Agendar Consulta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologia -->
+    <section class="tecnologia" id="tecnologia">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tecnologia Médica</h2>
+                <p class="section-subtitle">Inovação a serviço da saúde</p>
+            </div>
+            
+            <div class="tecnologia-content">
+                <div class="tecnologia-text" data-aos="fade-right">
+                    <h3>Equipamentos de Última Geração</h3>
+                    <p>Nossa clínica investe constantemente em tecnologia médica para oferecer diagnósticos precisos e tratamentos mais eficientes.</p>
+                    
+                    <div class="tecnologia-lista">
+                        <div class="tecnologia-item">
+                            <div class="tecnologia-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="tecnologia-info">
+                                <h4>Ressonância Magnética 3 Tesla</h4>
+                                <p>Imagens de alta resolução para diagnóstico preciso</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tecnologia-item">
+                            <div class="tecnologia-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="tecnologia-info">
+                                <h4>Ecocardiógrafo Digital</h4>
+                                <p>Avaliação cardíaca com tecnologia Doppler avançada</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tecnologia-item">
+                            <div class="tecnologia-icon">
+                                <i class="fas fa-x-ray"></i>
+                            </div>
+                            <div class="tecnologia-info">
+                                <h4>Tomografia Computadorizada</h4>
+                                <p>Exames rápidos com baixa dose de radiação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tecnologia-visual" data-aos="fade-left">
+                    <img src="images/tecnologia-medica.jpg" alt="Tecnologia médica" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Agende sua Consulta</h2>
+                <p class="section-subtitle">Estamos à disposição para cuidar de você</p>
+            </div>
+            
+            <div class="contato-grid">
+                <div class="contato-info" data-aos="fade-right">
+                    <h3>Informações de Contato</h3>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>Av. Brigadeiro Faria Lima, 3900 - 5º andar<br>São Paulo/SP - CEP 04538-132</p>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p>(11) 9999-9999<br>Segunda a Sexta, 8h às 19h</p>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>contato@vitalisclinic.com.br<br>Atendimento preferencial por telefone</p>
+                    </div>
+                    
+                    <div class="contato-mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197353585618!2d-46.65867598447599!3d-23.56134918468293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Brigadeiro%20Faria%20Lima%2C%201500%20-%20Jardim%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-002!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Localização Vitalis Clinic"></iframe>
+                    </div>
+                </div>
+                
+                <form class="contato-form" data-aos="fade-left" id="form-contato">
+                    <div class="form-header">
+                        <h3>Agendamento Online</h3>
+                        <p>Preencha o formulário e nossa equipe entrará em contato para confirmar sua consulta.</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Telefone para Contato" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Especialidade Médica</option>
+                            <option value="cardiologia">Cardiologia</option>
+                            <option value="neurologia">Neurologia</option>
+                            <option value="pneumologia">Pneumologia</option>
+                            <option value="outro">Outra Especialidade</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Descreva brevemente o motivo da consulta"></textarea>
+                    </div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="privacidade" required>
+                        <label for="privacidade">Concordo com a <a href="#">Política de Privacidade</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Enviar Solicitação</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <div class="logo-mark">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span>Vitalis</span>
+                        <span>Clinic</span>
+                    </div>
+                </div>
+                <p class="footer-slogan">Medicina de excelência com cuidado humanizado.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Especialidades</h3>
+                <ul>
+                    <li><a href="#">Cardiologia</a></li>
+                    <li><a href="#">Neurologia</a></li>
+                    <li><a href="#">Pneumologia</a></li>
+                    <li><a href="#">Endocrinologia</a></li>
+                    <li><a href="#">Ortopedia</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Exames</h3>
+                <ul>
+                    <li><a href="#">Check-up Completo</a></li>
+                    <li><a href="#">Ressonância Magnética</a></li>
+                    <li><a href="#">Ecocardiograma</a></li>
+                    <li><a href="#">Teste Ergométrico</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Institucional</h3>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Corpo Clínico</a></li>
+                    <li><a href="#">Convênios</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Vitalis Clinic. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-btn" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#home" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
